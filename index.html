@@ -1,40 +1,43 @@
 <!DOCTYPE HTML>
 <html lang="zh-CN">
 
-<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-<head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="Ryan&#39;s Blog">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta name="renderer" content="webkit|ie-stand|ie-comp">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+    <script src="https://v1.hitokoto.cn/?c=d&encode=js&select=%23hitokoto" defer></script>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="Ryan&#39;s Blog">
+        <meta name="description" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta name="renderer" content="webkit|ie-stand|ie-comp">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Ryan&#39;s Blog</title>
-    <link rel="icon" type="image/png" href="/favicon.png">
+            <title>
+                Ryan&#39;s Blog
+            </title>
+            <link rel="icon" type="image/png" href="/favicon.png">
 
-    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
-    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
-    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
-    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/matery.css">
-    <link rel="stylesheet" type="text/css" href="/css/my.css">
+            <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+            <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+            <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+            <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+            <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+            <link rel="stylesheet" type="text/css" href="/css/matery.css">
+            <link rel="stylesheet" type="text/css" href="/css/my.css">
 
-    <script src="/libs/jquery/jquery.min.js"></script>
+            <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 5.4.0">
+    <meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/atom.xml" title="Ryan's Blog" type="application/atom+xml">
 <link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
 <link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
-
 
 
 
@@ -311,7 +314,7 @@
 </header>
 
     
-<style>
+    <style>
     .carousel-control {
         width: 45px;
         height: 45px;
@@ -364,27 +367,26 @@
         <div class="brand">
             <div class="title center-align">
                 
-                ITSharer
-                
+                    ITSharer
+                        
             </div>
 
             <div class="description center-align">
                 
-                    正在加载今日诗词....
-                
+                        <span id="jinrishici-sentence">正在加载今日诗词....</span>
+                            
             </div>
         </div>
     </div>
 </div>
 
 
-<script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
-</script>
-
-
+    <script>
+        // 每天切换 banner 图.  Switch banner image every day.
+        var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+        $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    </script>
+    
 
             <div class="cover-btns">
                 <a href="#indexCard" class="waves-effect waves-light btn">
@@ -487,97 +489,82 @@
     });
 </script>
 
+        
 
+                    <main class="content">
 
-<main class="content">
-
-    
-    <div id="indexCard" class="index-card">
-        <div class="container ">
-            <div class="card">
-                <div class="card-content">
-                    
-                        <div class="dream">
-    
-    <div class="title center-align">
-        <i class="far fa-lightbulb"></i>&nbsp;&nbsp;我的梦想
-    </div>
-    
-    <div class="row">
-        <div class="col l8 offset-l2 m10 offset-m1 s10 offset-s1 center-align text">
-            不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。——罗伯·舒乐
-        </div>
-    </div>
-</div>
-
-                    
-
-                    
-
-                    
-
-                    
-                    <div id="recommend-sections" class="recommend">
                         
+                            <div id="indexCard" class="index-card">
+                                <div class="container ">
+                                    <div class="card">
+                                        <div class="card-content">
+                                            <i class="fa fa-volume-up fa-lg fa-fw text-color"></i>
+                                            <span id="hitokoto" style="font-size:16px;">一言API请求超时。请稍后重试。</span> （一言）
+                                                
+
+                                                            
+
+                                                                        
+                                                                            <div id="recommend-sections" class="recommend">
+                                                                                
 
 
 
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-    
-
-    
-
-    <!-- 所有文章卡片 -->
-    <article id="articles" class="container articles">
-        <div class="row article-row">
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2021/03/23/hello-world/">
-                        <div class="card-image">
+                                                                            </div>
+                                                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             
-                            
-                            <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
-                            
-                            <span class="card-title">Hello World</span>
-                        </div>
-                    </a>
 
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
+                                
+
+                                    <!-- 所有文章卡片 -->
+                                    <article id="articles" class="container articles">
+                                        <div class="row article-row">
+                                            
+                                                <div class="article col s12 m6 l4" data-aos="zoom-in">
+                                                    <div class="card">
+                                                        <a href="/2021/03/23/hello-world/">
+                                                            <div class="card-image">
+                                                                
+                                                                        
+                                                                            <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                                                                            
+                                                                                <span class="card-title">Hello World</span>
+                                                            </div>
+                                                        </a>
+
+                                                        <div class="card-content article-content">
+                                                            <div class="summary block-with-text">
+                                                                
+                                                                                    Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
+                                                                                        
+                                                            </div>
+                                                            <div class="publish-info">
+                                                                <span class="publish-date">
                                 <i class="far fa-clock fa-fw icon-date"></i>2021-03-23
                             </span>
-                            <span class="publish-author">
+                                                                <span class="publish-author">
                                 
                                 <i class="fas fa-user fa-fw"></i>
                                 Ryan
                                 
                             </span>
-                        </div>
-                    </div>
+                                                            </div>
+                                                        </div>
+
+                                                        
+                                                    </div>
+                                                </div>
+                                                
+                                        </div>
+                                    </article>
+
+                    </main>
 
                     
-                </div>
-            </div>
-            
-        </div>
-    </article>
-
-</main>
-
-
-
 
     <footer class="page-footer bg-color">
     
